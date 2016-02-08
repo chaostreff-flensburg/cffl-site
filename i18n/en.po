@@ -14,7 +14,7 @@ msgid "gluon-config-mode:welcome"
 msgstr "Willkommen zum Einrichtungsassistenten f&uuml;r deine neue Foerdefunk-Boje. F&uuml;lle das folgende Formular deinen Vorstellungen entsprechend aus und sende es ab."
 
 msgid "gluon-config-mode:pubkey"
-msgstr "Das ist der Schl&uuml;ssel deiner Boje zur Information. Du kannst deine Boje ohne Registrierung direkt benutzen."
+msgstr "Deine Boje <%=hostname%> ist jetzt fertig eingerichtet."
 
 msgid "gluon-config-mode:reboot"
 msgstr "<p>
@@ -23,6 +23,9 @@ sich mit anderen Bojen in der N&auml;he zu verbinden.
 Weitere Informationen zu Foerdefunk findest du auf
 <a href="http://foerdefunk.de">unserer Webseite</a>.
 </p>
+<p>Um zu dieser Konfigurationsseite zurückzugelangen, drücke im normalen
+Betrieb für drei Sekunden den Reset-Button. Das Gerät wird dann im Config
+Mode neustarten.</p>
 <p>
 Viel Spa&szlig; mit deiner Boje! Und vielen Dank!
 </p>"

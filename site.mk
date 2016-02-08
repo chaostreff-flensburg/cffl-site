@@ -1,7 +1,7 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
-	gluon-announced \
+	gluon-respondd \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
@@ -35,7 +35,6 @@ GLUON_SITE_PACKAGES := \
 	kmod-usb-net-mcs7830
 
 DEFAULT_GLUON_RELEASE := beta-2016.1.0-0
-GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 
