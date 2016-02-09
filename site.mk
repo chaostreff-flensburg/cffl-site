@@ -1,7 +1,7 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
-	gluon-respondd \
+	gluon-announced \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
@@ -27,8 +27,10 @@ GLUON_SITE_PACKAGES := \
 	kmod-usb-core \
 	kmod-usb2 \
 	kmod-usb-hid \
+	kmod-usb-net \
+	kmod-usb-net-asix \
 	kmod-r8169
-	
+
 DEFAULT_GLUON_RELEASE := beta-2016.1.0-0
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
